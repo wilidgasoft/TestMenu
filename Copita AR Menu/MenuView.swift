@@ -33,7 +33,7 @@ struct MenuView: View {
 //                            }
                         
                         NavigationLink {
-                            ARViewContainerView(vmItem: name)
+//                            ARViewContainerView(vmItem: name)
                         } label: {
                             Image(name)
                                 .resizable()

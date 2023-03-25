@@ -24,7 +24,7 @@ struct MainMenu:  View {
                 VStack(spacing: 30) {
                     
                     NavigationLink {
-                        MenuView()
+                        ContentView(menuOpen: false, width: 270)
                     } label: {
                         Image("copita")
                             .resizable()
@@ -34,7 +34,7 @@ struct MainMenu:  View {
                     }
                     
                     NavigationLink {
-                        MenuView()
+                        ContentView(menuOpen: false, width: 270)
                     } label: {
                         Image("tacoco")
                             .resizable()

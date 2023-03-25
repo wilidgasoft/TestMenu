@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0348A81E29CE367600AAF3D2 /* ContentMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348A81D29CE367600AAF3D2 /* ContentMenuView.swift */; };
+		0348A82029CE369F00AAF3D2 /* MenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348A81F29CE369F00AAF3D2 /* MenuContent.swift */; };
+		0348A82229CE3AEB00AAF3D2 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348A82129CE3AEB00AAF3D2 /* SideMenu.swift */; };
 		03847A6C29CC03110046E8B7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03847A6B29CC03110046E8B7 /* MenuView.swift */; };
 		03847A6E29CC06720046E8B7 /* ARViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03847A6D29CC06720046E8B7 /* ARViewContainerView.swift */; };
 		03847A7229CC23AB0046E8B7 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03847A7129CC23AB0046E8B7 /* MainMenu.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0348A81D29CE367600AAF3D2 /* ContentMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMenuView.swift; sourceTree = "<group>"; };
+		0348A81F29CE369F00AAF3D2 /* MenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContent.swift; sourceTree = "<group>"; };
+		0348A82129CE3AEB00AAF3D2 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		03847A6B29CC03110046E8B7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		03847A6D29CC06720046E8B7 /* ARViewContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainerView.swift; sourceTree = "<group>"; };
 		03847A7129CC23AB0046E8B7 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				03847A6D29CC06720046E8B7 /* ARViewContainerView.swift */,
 				03847A7129CC23AB0046E8B7 /* MainMenu.swift */,
 				03847A7329CC2E6C0046E8B7 /* VirtualObject.swift */,
+				0348A81D29CE367600AAF3D2 /* ContentMenuView.swift */,
+				0348A81F29CE369F00AAF3D2 /* MenuContent.swift */,
+				0348A82129CE3AEB00AAF3D2 /* SideMenu.swift */,
 			);
 			path = "Copita AR Menu";
 			sourceTree = "<group>";
@@ -163,12 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0348A81E29CE367600AAF3D2 /* ContentMenuView.swift in Sources */,
 				03847A7429CC2E6C0046E8B7 /* VirtualObject.swift in Sources */,
 				03847A6E29CC06720046E8B7 /* ARViewContainerView.swift in Sources */,
 				03847A7229CC23AB0046E8B7 /* MainMenu.swift in Sources */,
+				0348A82029CE369F00AAF3D2 /* MenuContent.swift in Sources */,
 				03847A6C29CC03110046E8B7 /* MenuView.swift in Sources */,
 				9850BE5F29BEE07E007F593C /* ContentView.swift in Sources */,
 				9850BE5D29BEE07E007F593C /* AppDelegate.swift in Sources */,
+				0348A82229CE3AEB00AAF3D2 /* SideMenu.swift in Sources */,
 				9850BE7129BEF92A007F593C /* Coordinator.swift in Sources */,
 				9850BE7329BF077E007F593C /* ARView+Extensions.swift in Sources */,
 				9850BE6F29BEF10E007F593C /* FoodViewModel.swift in Sources */,
